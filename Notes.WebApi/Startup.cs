@@ -29,7 +29,7 @@ namespace Notes.WebApi
             services.AddApplication();
             services.AddPersistence(Configuration);
             services.AddControllers();
-
+            //test2
             services.AddCors(options => 
             {
                 options.AddPolicy("AllowAll", policy => 
